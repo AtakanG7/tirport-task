@@ -1,0 +1,12 @@
+.list-item{
+    height: 50px;
+}
+
+.alertt{
+    position: fixed !important;
+    display: block;
+    bottom: 30px !important;
+    left: 30px !important; 
+    z-index: 999;
+    min-width: fit-content;
+}

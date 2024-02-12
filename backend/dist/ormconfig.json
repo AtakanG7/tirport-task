@@ -1,0 +1,19 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "atakan",
+    "password": "3210528a",
+    "database": "tirportDB",
+    "synchronize": true,
+    "logging": true,
+    "entities": [
+        "dist/**/*.entity{.ts,.js}"
+    ],
+    "migrations": [
+        "dist/migrations/*{.ts,.js}"
+    ],
+    "cli": {
+        "migrationsDir": "src/migrations"
+    }
+}

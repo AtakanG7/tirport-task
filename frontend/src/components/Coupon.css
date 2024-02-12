@@ -1,0 +1,34 @@
+.card-container{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+}
+
+.card-body{
+    height: max-content;  
+    cursor: pointer; 
+}
+
+.coupon-button{
+    background-color: transparent;
+    width: 50px;
+    color: white !important;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 0px !important;
+    margin-bottom: 0px !important;
+    margin-top: 10px !important;
+}
+
+.coupon-button:hover{
+    background-color: transparent;
+}
+
+.cards-container{
+    max-width: 450px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}

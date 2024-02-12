@@ -1,0 +1,22 @@
+.tabs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tabs-container{
+    height: 100vh;
+    background-color: #101418;
+}
+
+.font{
+    color: #B8BABB !important;
+}
+
+.tab-container{
+    display: flex;
+    justify-content: center;
+}
